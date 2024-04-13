@@ -1,8 +1,14 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    overflow: hidden;
+}
+
+#chartContainer {
+    height: 370px;
+    width: 100%;  /* 차트의 폭을 화면 전체 폭으로 조정 */
+    margin-left: 0;  /* 차트를 페이지 왼쪽으로 정렬 */
 }
