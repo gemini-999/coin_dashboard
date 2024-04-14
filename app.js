@@ -50,21 +50,24 @@ window.onload = async function() {
                 showInLegend: true,
                 name: "7일 이동 평균선",
                 dataPoints: ma7,
-                lineColor: "purple"
+                lineColor: "purple",
+                markerType: "none"  // 점 표시 없음
             },
             {
                 type: "line",
                 showInLegend: true,
                 name: "15일 이동 평균선",
                 dataPoints: ma15,
-                lineColor: "green"
+                lineColor: "green",
+                markerType: "none"  // 점 표시 없음
             },
             {
                 type: "line",
                 showInLegend: true,
                 name: "50일 이동 평균선",
                 dataPoints: ma50,
-                lineColor: "orange"
+                lineColor: "orange",
+                markerType: "none"  // 점 표시 없음
             }
         ]
     };
